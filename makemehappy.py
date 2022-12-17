@@ -22,9 +22,9 @@ label = recognized["class_name"]
 
 if label == "good_things":
      print ("You're so nice!")
-     #img = Image.open('happy.png')
-     #img.show()
+     img = Image.open('happy.png')
+     img.show()
 else:
      print ("You're so mean!")
-     #img = Image.open('sad.png')
-     #img.show()
+     img = Image.open('sad.png')
+     img.show()
