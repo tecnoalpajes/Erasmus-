@@ -8,9 +8,9 @@
 CapacitiveSensor   capSensor = CapacitiveSensor(7, 5);
 int low = 1000;
 
-String messageOne = "1 Second";
-String messageTwo = "5 Seconds";
-String messageThree = "10 Seconds";
+String messageOne = "1 Second is almost nothing";
+String messageTwo = "5 Seconds is not enough";
+String messageThree = "10 Seconds is quite perfect!";
 
 void setup(){
   Serial.begin(19200);
