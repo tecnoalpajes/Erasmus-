@@ -82,6 +82,8 @@
               client.println("</b><br/>");
               client.println("<br/><br/>");
               client.println("<h1 align='center'>FROM A WEB SERVER</h1>");
+              client.println("<p></p><p></p><p></p>");
+			           client.println("<div style='text-align: center;'><img src='https://www.educa2.madrid.org/web/educamadrid/principal/files/3df3efeb-7bc1-4392-8ee8-7eb01a160e8f/TOIS-based-.png?thumbnail=true' alt='logo' title='logo'></div>");
               client.println("</b></body>");
               client.println("</html>");
               break;
